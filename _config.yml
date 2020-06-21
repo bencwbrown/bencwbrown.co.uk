@@ -3,19 +3,7 @@ description: PhD Student in Mathematics at The University of Edinburgh
 baseurl: ''
 url: https://bencwbrown.co.uk
 permalink: slug
-collections:
-  apps:
-    output: true
-    permalink: /:title
-    include: app-assets
 defaults:
-  - scope:
-      path: ''
-      type: 'apps'
-    values:
-      layout: 'app'
-      type: 'app'
-      show_support_link: true
 exclude:
   - Gemfile
   - Gemfile.lock

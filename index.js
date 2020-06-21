@@ -17,16 +17,6 @@ const injectScript = (source, callback) => {
 
 const insertHypenationHintsForCamelCase = string => string.replace(/([a-z])([A-Z])/g, '$1\u00AD$2');
 
-// Unicorn easteregg
-dom.select('#unicorn-btn').addEventListener('click', event => {
-	event.preventDefault();
-	injectScript('cornify.js', () => {
-		cornify();
-		cornify();
-		setInterval(cornify, 1000);
-	});
-}, {once: true});
-
 {
 	function hideScrollHint() {
 		if (window.scrollY > 100) {
