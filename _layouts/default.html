@@ -24,10 +24,8 @@
 	<link rel="stylesheet" href="{{ '/academicons.css' | relative_url }}" />
 	<script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js"></script>
 	<script type="module" src="{{ '/main.js' | relative_url }}"></script>
-	{% if page.url == '/' %}
 	<script src="{{ '/assets/javascript/timeago.min.js' | relative_url }}"></script>
 	<script type="module" src="{{ '/index.js' | relative_url }}"></script>
-	{% endif %}
 
 	{% if jekyll.environment == 'production' %}
 	{% include analytics.html %}
