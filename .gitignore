@@ -1,4 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
+bencwbrown.co.uk.code-workspace
+.DS_Store
 /vendor
