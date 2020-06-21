@@ -15,4 +15,21 @@ exclude:
 plugins:
   - jekyll-sitemap
   - jekyll-font-awesome-sass
+  - jekyll-analytics
 strict_front_matter: true
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-120544103-1          # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+
+ # Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
+ #   url: matomo.example.com # Required - url to Matomo installation without trailing /
+ #   siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
+
+ # Piwik:                    # Add, if you want to track with Piwik
+ #   url: piwik.example.com  # Required - url to Piwik installation without trailing /
+ #   siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+ # MPulse:                   # Add if you want to track performance with mPulse
+ #   apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
