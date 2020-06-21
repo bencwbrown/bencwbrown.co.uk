@@ -11,16 +11,7 @@
 		<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		<meta property="og:url" content="{{ page.url | absolute_url }}">
 		<meta property="og:description" content="{{ description }}">
-		{% if page.collection == 'apps' %}
-			{% for file in site.static_files %}
-				{% assign path = '/assets/' | append: page.slug | append: '/icon' %}
-				{% if file.path contains path %}
-					<meta property="og:image" content="{{ file.path | absolute_url }}">
-				{% endif %}
-			{% endfor %}
-		{% else %}
-			<meta property="og:image" content="https://bencwbrown.co.uk/BenBrown_600x600.png">
-		{% endif %}
+		<meta property="og:image" content="https://bencwbrown.co.uk/BenBrown_600x600.png">
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:site" content="@sindresorhus">
 		<meta name="twitter:creator" content="@sindresorhus">
@@ -48,7 +39,7 @@
 							{% if page.url == '/' %}
 								<a id="unicorn-btn" class="navbar-item" href="https://sindresorhus.com/unicorn" title="Click me!">🦄</a>
 							{% else %}
-								<span class="navbar-item">Sindre Sorhus</span>
+								<span class="navbar-item">Benjamin Brown</span>
 							{% endif %}
 							<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
 								<span aria-hidden="true"></span>
@@ -59,10 +50,9 @@
 						<div class="navbar-menu">
 							<div class="navbar-end">
 								<a class="navbar-item is-tab" href="{% link index.html %}">Home</a>
-								<a class="navbar-item is-tab" href="{% link apps.html %}">Apps</a>
-								<a class="navbar-item is-tab" href="{% link about.md %}">About</a>
+								<a class="navbar-item is-tab" href="{% link research.md %}">Research</a>
 								<a class="navbar-item is-tab" href="{% link contact.md %}">Contact</a>
-								<a class="navbar-item is-tab" href="https://blog.sindresorhus.com">Blog</a>
+								<a class="navbar-item is-tab" href="{% link other.md %}">Other</a>
 							</div>
 						</div>
 					</nav>
