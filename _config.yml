@@ -26,4 +26,5 @@ exclude:
   - vendor
 plugins:
   - jekyll-sitemap
+  - jekyll-font-awesome-sass
 strict_front_matter: true
