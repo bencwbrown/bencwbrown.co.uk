@@ -20,14 +20,8 @@ layout: default
 	.sponsors a:not(:first-child) {
 		margin-left: 10px;
 	}
+
 </style>
-<script type="module">
-// Temp redirect for old URL
-if (location.hash === '#apps') {
-	location.hash = '';
-	location.pathname = '/apps';
-}
-</script>
 
 <section class="hero is-fullheight is-default">
 	<div class="hero-body">
@@ -37,26 +31,41 @@ if (location.hash === '#apps') {
 					<div itemscope itemtype="https://schema.org/Person">
 						<img id="profile-pic" src="BenBrown_320x320.png" width="320" height="320" itemprop="image">
 						<h1 class="title is-2" itemprop="name">Benjamin C. W. Brown</h1>
-						<h2 class="subtitle is-4" itemprop="description">Postgraduate Student in Mathematics at The University of Edinburgh.</h2>
-						<p>I am a 2nd Year PhD student in the <a href="https://www.maths.ed.ac.uk">School of Mathematics</a>
-							at <a href="https://www.ed.ac.uk">The University of Edinburgh</a>, with <a href="https://www.maths.ed.ac.uk/~jmartens/">Johan
-								Martens</a> as my supervisor. I am also a member of the <a href="https://hodge.maths.ed.ac.uk/">Hodge
-								Institute</a>. Before coming here, I was a student at <a href="https://warwick.ac.uk/">The
-								University of Warwick</a> with <a href="https://homepages.warwick.ac.uk/staff/Miles.Reid/">Miles
-								Reid</a> and <a href="https://homepages.warwick.ac.uk/staff/Weiyi.Zhang/">Weiyi Zhang</a> as my
+						<h2 class="subtitle is-4" itemprop="description">Postgraduate Student in Mathematics at The
+							University of Edinburgh.</h2>
+						<p>I am a 2nd Year PhD student in the <a href="https://www.maths.ed.ac.uk">School of
+								Mathematics</a>
+							at <a href="https://www.ed.ac.uk">The University of Edinburgh</a>, with <a
+								href="https://www.maths.ed.ac.uk/~jmartens/">Johan
+								Martens</a> as my supervisor. I am also a member of the <a
+								href="https://hodge.maths.ed.ac.uk/">Hodge
+								Institute</a>. Before coming here, I was a student at <a
+								href="https://warwick.ac.uk/">The
+								University of Warwick</a> with <a
+								href="https://homepages.warwick.ac.uk/staff/Miles.Reid/">Miles
+								Reid</a> and <a href="https://homepages.warwick.ac.uk/staff/Weiyi.Zhang/">Weiyi
+								Zhang</a> as my
 							past supervisors.</p>
 						<br>
 						<p>
-							Currently I am studying hypertoric varieties, geometric quantisation, and (the moduli spaces of) Higgs bundles.
+							Currently I am studying hypertoric varieties, geometric quantisation, and (the moduli spaces
+							of) Higgs bundles.
 						</p>
 						<br>
 						<p>
-						   Other than my research, I am also an organiser for the <a href="http://hodge.maths.ed.ac.uk/tiki/Hodge+Club">Hodge Club</a> talks for the School of Mathematics, for the academic year 2019 - 2020.
-						</p>						
+							Other than my research, I am also an organiser for the <a
+								href="http://hodge.maths.ed.ac.uk/tiki/Hodge+Club">Hodge Club</a> talks for the School
+							of Mathematics, for the academic year 2019 - 2020.
+						</p>
 					</div>
 					<br>
 					<p class="has-text-centered">
-						<a class="button is-large is-white" href="https://www.maths.ed.ac.uk/school-of-mathematics/people?person=686">
+						<a class="button is-large is-white"
+							href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#98;&#46;&#98;&#114;&#111;&#119;&#110;&#64;&#101;&#100;&#46;&#97;&#99;&#46;&#117;&#107;">
+							<i class="fas fa-envelope"></i>
+						</a>
+						<a class="button is-large is-white"
+							href="https://www.maths.ed.ac.uk/school-of-mathematics/people?person=686">
 							<i class="fas fa-address-card"></i>
 						</a>
 						<a class="button is-large is-white" href="https://github.com/bencwbrown">
@@ -81,39 +90,6 @@ if (location.hash === '#apps') {
 						<i id="scroll-hint" class="fa fa-caret-down" aria-hidden="true"></i>
 					</li>
 				</ul>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section class="hero is-fullheight is-gray">
-	<div id="projects" class="hero-body container">
-		<div class="columns is-vcentered">
-			<div class="column has-text-centered">
-				<img id="unicorn-icon" src="unicorn.svg" width="100" height="100">
-				<h4 class="title is-4" style="font-weight: 400">Latest commit</h4>
-				<div id="latest-commit">
-					<a class="commit-title nice-link" href=""></a>
-					<br>
-					<span style="font-size: 12px">
-						<span class="commit-date"></span> in <a class="repo-title" href=""></a>
-					</span>
-				</div>
-				<br>
-				<a href="https://gitstalk.netlify.com/sindresorhus">Stalk me</a>
-			</div>
-			<div id="latest-repos-container" class="column is-three-fifths is-offset-1 has-nice-link">
-				<h2 class="title is-2">Latest repos</h2>
-				<template id="latest-repos-template">
-					<div class="column is-half">
-						<h4 class="title is-4">
-							<a class="latest-repos-title" href=""></a>
-							<a class="tag is-small latest-repos-language">¯\_(ツ)_/¯</a>
-						</h4>
-						<p class="latest-repos-description"></p>
-					</div>
-				</template>
-				<div id="latest-repos" class="columns is-multiline"></div>
 			</div>
 		</div>
 	</div>
