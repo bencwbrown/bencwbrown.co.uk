@@ -26,6 +26,10 @@
 	<script type="module" src="{{ '/main.js' | relative_url }}"></script>
 	<script src="{{ '/assets/javascript/timeago.min.js' | relative_url }}"></script>
 	<script type="module" src="{{ '/index.js' | relative_url }}"></script>
+	
+	{% if jekyll.environment == 'production' %}
+		{% include analytics.html %}
+	{% endif %}
 
 </head>
 
