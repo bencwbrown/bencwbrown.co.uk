@@ -1,9 +1,26 @@
-title: Benjamin Brown
-description: PhD Student in Mathematics at The University of Edinburgh
-baseurl: ''
+title: Benjamin Brown's Personal Website
+tagline: A personal website outlining my academic interests and other miscellanea.
+description: Personal webiste of Benjamin Brown, who is a PhD Student in Mathematics at The University of Edinburgh, specialising in algebraic, complex, and symplectic geometry, along with some mathematical physics.
+baseurl: bencwbrown.co.uk
 url: https://bencwbrown.co.uk
+author: Benjamin Brown
+twitter:
+  username: benjamincwbrown
+  card: summary
+#facebook:
+#  app_id:
+#  publisher:
+#  admins:
+logo: /assets/author.png
+social:
+  name: Ben Brown
+  links:
+  - https://facebook.com/TheNotoriousBB
+  - https://twitter.com/benjamincwbrown
+  - https://github.com/bencwbrown
+  - https://linkedin.com/in/bencwbrown
+lang: en_GB
 permalink: slug
-defaults:
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -16,20 +33,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-font-awesome-sass
   - jekyll-analytics
+  - jekyll-seo-tag
 strict_front_matter: true
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
     id: UA-120544103-1          # Required - replace with your tracking id
     anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
-
- # Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
- #   url: matomo.example.com # Required - url to Matomo installation without trailing /
- #   siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
-
- # Piwik:                    # Add, if you want to track with Piwik
- #   url: piwik.example.com  # Required - url to Piwik installation without trailing /
- #   siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
-
- # MPulse:                   # Add if you want to track performance with mPulse
- #   apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
