@@ -5,8 +5,6 @@ title: Research
 
 ### Attended & Upcoming Conferences, Summer Schools & Workshops
 
-* [Geometric and Analytic Aspects of Moduli Spaces of Higgs Bundles](https://higgsstrasbourg.sciencesconf.org/),
-Institut de Recherche Mathématique Avancée, Strasbourg, France, 8th - 12th June, 2020.
 * [Topics in Category Theory: A Spring School](https://sites.google.com/view/tict2020/home), International Centre for
 Mathematical Sciences, Edinburgh, UK, 11th - 13th March, 2020.
 * [School on Bridgeland Stability](https://warwick.ac.uk/fac/sci/maths/research/events/2019-20/sbs/), Mathematics
