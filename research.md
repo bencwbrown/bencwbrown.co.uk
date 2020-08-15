@@ -5,6 +5,7 @@ title: Research
 
 ### Attended & Upcoming Conferences, Summer Schools & Workshops
 
+* [Lie Theory and Integrable Systems in Symplectic and Poisson Geometry](https://sites.google.com/view/lietheory2020), The Fields Institute, University of Toronto, Online Workshop, 5th - 7th June, 2020.
 * [Topics in Category Theory: A Spring School](https://sites.google.com/view/tict2020/home), International Centre for
 Mathematical Sciences, Edinburgh, UK, 11th - 13th March, 2020.
 * [School on Bridgeland Stability](https://warwick.ac.uk/fac/sci/maths/research/events/2019-20/sbs/), Mathematics
