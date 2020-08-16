@@ -4,3 +4,4 @@ _site
 *.code-workspace
 .DS_Store
 /vendor
+build.sh
