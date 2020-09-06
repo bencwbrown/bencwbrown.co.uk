@@ -5,6 +5,10 @@ title: Research
 
 ### Attended & Upcoming Conferences, Summer Schools & Workshops
 
+* [Junior Global Poisson Workshop](http://www.unige.ch/math/folks/nikolaev/JGPW2020.html), Online Workshop, 14th - 16th September, 2020.
+
+* [COW/EmSG/GLEN Joint Summer School](http://cow.alggeo.xyz/summerschool2020.html), International Centre for Mathematical Sciences, Edinburgh, UK, Online Workshop, 7th - 11th September, 2020.
+
 * [Lie Theory and Integrable Systems in Symplectic and Poisson Geometry](https://sites.google.com/view/lietheory2020), The Fields Institute, University of Toronto, Online Workshop, 5th - 7th June, 2020.
 * [Topics in Category Theory: A Spring School](https://sites.google.com/view/tict2020/home), International Centre for
 Mathematical Sciences, Edinburgh, UK, 11th - 13th March, 2020.
@@ -54,5 +58,6 @@ Edinburgh, 1st November 2019.
 
 ### Miscellaneous
 
+* [_Compactifying Hypertoric Manifolds via Symplectic Cutting_](https://bencwbrown.github.io/presentations/202009XX-glen-presentation/), Slides for a Virtual Presentation, Autumn, 2020
 * _Toric Symplectic Manifolds and the Delzant Construction_, notes for my talk for the [Moment Maps Working
 Seminar](http://hodge.maths.ed.ac.uk/tiki/MomentMaps) at Edinburgh, Spring 2019.
